@@ -30,7 +30,7 @@ This website serves as the official corporate landing page, showcasing their ext
 
 *   **🎬 Dynamic Intro Preloader:** A high-end loading overlay featuring the centered gold-glow logo, staggered lettering entrance, and gold progress bar that transitions via a smooth dissolve.
 *   **📦 Products Catalog with Pagination:** Showcases 20 organic commodities (Cashews, Cocoa, Bitter Kola, Spices, Hardwood Charcoal, etc.) with a smart "Load More" pagination that shrinks back to 5 items via a smooth "Load Less" container scroll.
-*   **💬 Integrated WhatsApp Forms:** An interactive query form that compiles visitors' details into clean, professional, asterisk-free WhatsApp chat threads redirecting directly to `08060593953`.
+*   **💬 Integrated WhatsApp Forms:** An interactive query form that compiles visitors' details into clean, professional, asterisk-free WhatsApp chat threads redirecting directly to `8067540693`.
 *   **🗺️ Google Maps Pinpointing:** Clicking on the corporate address dynamically opens Google Maps targeting precise GPS coordinates (`6.8208, 3.9208`) with street-level zoom (`17z`) to drop an exact pinpoint marker.
 *   **❓ Animated FAQ Accordions:** Built-in FAQs answering sourcing, packing, shipping, and logistic standards with clean toggle micro-animations.
 *   **📱 Mobile First & Responsive:** Tailwind grid layouts optimized for flawless rendering on all screens (mobile, tablets, and desktops) with horizontal scroll containment.
@@ -94,4 +94,4 @@ To run this project locally, ensure you have **Node.js** installed, then execute
 ---
 
 ## 💻 Developer Credits
-Developed and designed with premium web standards by **Feel-flytechnology**.
+Developed and designed with premium web standards by **Bobmatrix**.
