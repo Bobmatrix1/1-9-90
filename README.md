@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="app/public/images/logo1.png" alt="Keystone Mercantile Logo" width="120" />
+  <img src="public/images/logo1.png" alt="Keystone Mercantile Logo" width="120" />
 </p>
 
 <h1 align="center">🌿 Keystone Mercantile Limited</h1>
@@ -49,17 +49,16 @@ This website serves as the official corporate landing page, showcasing their ext
 ## 📂 Project Directory Structure
 
 ```text
-├── app/
-│   ├── public/
-│   │   └── images/          # Product assets, background farm images, and logos
-│   ├── src/
-│   │   ├── components/      # Common components (Preloader, Back to Top button)
-│   │   ├── sections/        # Section components (Hero, About, Products, Faq, Contact, etc.)
-│   │   ├── App.tsx          # Main layout and ScrollTrigger lifecycle
-│   │   ├── index.css        # Base styling rules and global containment
-│   │   └── main.tsx         # Mounting bundle entrypoint
-│   ├── index.html           # Document base, font preloads, and SEO/OG metatags
-│   └── package.json         # Scripts, workspace modules, and dependencies
+├── public/
+│   └── images/          # Product assets, background farm images, and logos
+├── src/
+│   ├── components/      # Common components (Preloader, Back to Top button)
+│   ├── sections/        # Section components (Hero, About, Products, Faq, Contact, etc.)
+│   ├── App.tsx          # Main layout and ScrollTrigger lifecycle
+│   ├── index.css        # Base styling rules and global containment
+│   └── main.tsx         # Mounting bundle entrypoint
+├── index.html           # Document base, font preloads, and SEO/OG metatags
+├── package.json         # Scripts, modules, and dependencies
 └── Keystone Agribiz Profile.pdf  # Corporate documentation
 ```
 
@@ -69,12 +68,7 @@ This website serves as the official corporate landing page, showcasing their ext
 
 To run this project locally, ensure you have **Node.js** installed, then execute:
 
-1. **Navigate into the application folder:**
-   ```bash
-   cd app
-   ```
-
-2. **Install dependency packages:**
+1. **Install dependency packages:**
    ```bash
    npm install
    ```
