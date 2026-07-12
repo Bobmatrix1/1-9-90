@@ -63,7 +63,7 @@ export default function Hero() {
       {/* Left Panel */}
       <div
         ref={leftRef}
-        className="relative w-full lg:w-[45%] bg-cream flex flex-col justify-center px-6 sm:px-10 lg:px-16 py-24 lg:py-0 order-2 lg:order-1"
+        className="relative w-full lg:w-[45%] bg-cream flex flex-col justify-between px-6 sm:px-10 lg:px-16 py-20 lg:py-12 lg:pt-24 lg:pb-10 order-2 lg:order-1"
       >
         {/* Organic curved shape */}
         <svg
@@ -76,7 +76,7 @@ export default function Hero() {
           />
         </svg>
 
-        <div className="max-w-xl relative z-10">
+        <div className="max-w-xl relative z-10 lg:my-auto">
           <p className="hero-animate text-gold text-xs sm:text-sm font-medium tracking-[0.12em] uppercase mb-4 lg:mb-6">
             KEYSTONE MERCANTILE LIMITED NIGERIA
           </p>
@@ -109,7 +109,7 @@ export default function Hero() {
         </div>
 
         {/* Stats Row */}
-        <div className="hero-animate lg:absolute lg:bottom-1 lg:left-0 lg:right-0 flex flex-wrap items-center justify-center gap-6 sm:gap-10 lg:gap-14 mt-16 lg:mt-0 z-10">
+        <div className="hero-animate w-full flex flex-wrap items-center justify-center gap-6 sm:gap-10 lg:gap-14 mt-16 lg:mt-6 z-10">
           {[
             { num: "15+", label: "Years Experience" },
             { num: "20+", label: "Export Markets" },

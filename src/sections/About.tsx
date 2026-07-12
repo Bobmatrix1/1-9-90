@@ -59,7 +59,7 @@ export default function About() {
     <section
       id="about"
       ref={sectionRef}
-      className="pt-4 pb-16 md:pt-6 md:pb-24 lg:pt-0 lg:pb-[100px] bg-cream"
+      className="pt-12 pb-16 md:pt-16 md:pb-24 lg:pt-20 lg:pb-[100px] bg-cream"
     >
       <div className="max-w-[1280px] mx-auto px-5 sm:px-8 lg:px-12">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">

@@ -127,6 +127,11 @@ export default function Footer() {
                   WhatsApp: 08067540693
                 </a>
               </p>
+              <p>
+                <a href="mailto:keystoneng@gmail.com" className="hover:text-white transition-colors">
+                  keystoneng@gmail.com
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -148,8 +153,8 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex gap-3">
             {[
-              { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/Incorporatedkeys" },
-              { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/company/keystone-mercantile" },
+              { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/share/1BEtr4ffUj/" },
+              { icon: Linkedin, label: "LinkedIn", href: "https://ng.linkedin.com/in/keystone-mercantile-90158624&sa=U&ved=2ahUKEwi5xtvQtM2VAxVhXkEAHUA0Fk8QFnoECAwQAg&usg=AOvVaw1wljNhHFCElEY81p7Tc51Y" },
               { icon: WhatsAppIcon, label: "WhatsApp", href: "https://wa.me/2348067540693" },
             ].map(({ icon: Icon, label, href }) => (
               <a

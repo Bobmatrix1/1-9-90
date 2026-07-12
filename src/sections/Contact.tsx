@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { MapPin, Phone, MessageCircle, Facebook, Linkedin } from "lucide-react";
+import { MapPin, Phone, MessageCircle, Facebook, Linkedin, Mail } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -37,16 +37,22 @@ const contactInfo = [
     href: "https://wa.me/2348067540693",
   },
   {
+    icon: Mail,
+    label: "Email",
+    value: "keystoneng@gmail.com",
+    href: "mailto:keystoneng@gmail.com",
+  },
+  {
     icon: Facebook,
     label: "Facebook",
-    value: "Incorporatedkeys",
-    href: "https://www.facebook.com/Incorporatedkeys",
+    value: "Keystone Mercantile",
+    href: "https://www.facebook.com/share/1BEtr4ffUj/",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
     value: "Keystone Mercantile",
-    href: "https://www.linkedin.com/company/keystone-mercantile",
+    href: "https://ng.linkedin.com/in/keystone-mercantile-90158624&sa=U&ved=2ahUKEwi5xtvQtM2VAxVhXkEAHUA0Fk8QFnoECAwQAg&usg=AOvVaw1wljNhHFCElEY81p7Tc51Y",
   },
 ];
 
@@ -171,8 +177,8 @@ ${formData.message}`;
             {/* Social Icons */}
             <div className="flex gap-3">
               {[
-                { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/Incorporatedkeys" },
-                { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/company/keystone-mercantile" },
+                { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/share/1BEtr4ffUj/" },
+                { icon: Linkedin, label: "LinkedIn", href: "https://ng.linkedin.com/in/keystone-mercantile-90158624&sa=U&ved=2ahUKEwi5xtvQtM2VAxVhXkEAHUA0Fk8QFnoECAwQAg&usg=AOvVaw1wljNhHFCElEY81p7Tc51Y" },
                 { icon: WhatsAppIcon, label: "WhatsApp", href: "https://wa.me/2348067540693" },
               ].map(({ icon: Icon, label, href }) => (
                 <a
