@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="public/images/logo1.png" alt="Keystone Mercantile Logo" width="120" />
+  <img src="public/images/logo.jpeg" alt="1-9-90 Logo" width="120" style="border-radius: 50%; border: 3px solid #F7931A;" />
 </p>
 
-<h1 align="center">🌿 Keystone Mercantile Limited</h1>
+<h1 align="center">⚡ 1-9-90 Bitcoin Marketing Platform</h1>
 
 <p align="center">
-  <strong>Exporting Africa's Finest Agricultural Commodities to the World.</strong>
+  <strong>Non-Stop Bitcoin Wealth Multiplication Engine with Double X & Tetra X Dual Backoffice.</strong>
 </p>
 
 <p align="center">
@@ -13,36 +13,41 @@
   <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black" alt="React Version" />
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/GSAP-Animations-88CE02?logo=greensock&logoColor=white" alt="GSAP" />
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License" />
 </p>
 
 ---
 
-## 📖 About Keystone Mercantile
-Keystone Mercantile Limited is a large-scale exporter of premium African foods, spices, and fresh agricultural commodities. Based in **Ijebu Ode, Ogun State, Nigeria**, the company services a loyal global buyer base with exports shipping regularly to major ports in **India, China, Vietnam, Taiwan, Australia, Canada**, and neighboring African nations.
+## 📖 About 1-9-90
 
-This website serves as the official corporate landing page, showcasing their extensive product catalog, operational standards, quality control policies, and direct communication channels.
+**1-9-90** is a high-octane Bitcoin marketing platform designed to help members accumulate Bitcoin through an automated dual-engine backoffice system:
+
+- 🚀 **DOUBLE X Engine (Business #1):** Entry capital of `0.001 BTC` triggers continuous **294% returns** with automatic reinvestments.
+- 💎 **TETRA X Matrix (Business #2):** Activated from Double X profits, unlocking **1000% returns across 9 matrix levels** worth over **$10,000,000+**.
+
+> **Disclaimer:** This is not an investment platform.
 
 ---
 
 ## ✨ Key Features
 
-*   **🎬 Dynamic Intro Preloader:** A high-end loading overlay featuring the centered gold-glow logo, staggered lettering entrance, and gold progress bar that transitions via a smooth dissolve.
-*   **📦 Products Catalog with Pagination:** Showcases 20 organic commodities (Cashews, Cocoa, Bitter Kola, Spices, Hardwood Charcoal, etc.) with a smart "Load More" pagination that shrinks back to 5 items via a smooth "Load Less" container scroll.
-*   **💬 Integrated WhatsApp Forms:** An interactive query form that compiles visitors' details into clean, professional, asterisk-free WhatsApp chat threads redirecting directly to `8067540693`.
-*   **🗺️ Google Maps Pinpointing:** Clicking on the corporate address dynamically opens Google Maps targeting precise GPS coordinates (`6.8208, 3.9208`) with street-level zoom (`17z`) to drop an exact pinpoint marker.
-*   **❓ Animated FAQ Accordions:** Built-in FAQs answering sourcing, packing, shipping, and logistic standards with clean toggle micro-animations.
-*   **📱 Mobile First & Responsive:** Tailwind grid layouts optimized for flawless rendering on all screens (mobile, tablets, and desktops) with horizontal scroll containment.
+- **⚡ Dual Engine Backoffice:** Seamless integration of Double X (294%) and Tetra X (1000% across 9 levels) inside 1 single backoffice.
+- **🎙️ High-Impact Audio Presentation:** Custom-built voicenote player with soundwave visualizer, scrubber, variable playback speeds (1x–2x), and direct MP3/OGG download.
+- **🎬 Video Masterclass Tour:** Full video walkthrough modal with custom video controls.
+- **📊 Interactive Wealth Simulator:** Dynamic ROI calculator simulating potential earnings based on target matrix levels and team duplication velocity.
+- **🖼️ Interactive Image Lightbox Gallery:** Showcase of platform graphics with full zoom modal and scroll lock.
+- **📱 WhatsApp Direct Onboarding Integration:** Instant redirection to WhatsApp (`07068886985`) for seamless direct partner onboarding.
+- **🛡️ 60fps Mobile Side Panel Drawer:** Hardware-accelerated mobile navigation drawer rendered via React Portals with `scrollbar-gutter: stable`.
 
 ---
 
 ## 🛠️ Technology Stack
-*   **Build Tool:** Vite
-*   **Language:** React + TypeScript (Strict Type Safety)
-*   **Styling:** Tailwind CSS + Vanilla CSS Tokens
-*   **Animations:** GSAP (GreenSock) + Native IntersectionObserver
-*   **Icons:** Lucide React
+
+* **Build Tool:** Vite 7.3
+* **Framework:** React 18 + TypeScript (Strict Type Safety)
+* **Styling:** Tailwind CSS + Custom Dark Gold Crypto Styling System
+* **Icons:** Lucide React
+* **Portals & Animations:** React DOM Portals + CSS3 Hardware Acceleration
 
 ---
 
@@ -50,42 +55,40 @@ This website serves as the official corporate landing page, showcasing their ext
 
 ```text
 ├── public/
-│   └── images/          # Product assets, background farm images, and logos
+│   └── images/          # Platform presentation graphics, logo, audio, and video media
 ├── src/
-│   ├── components/      # Common components (Preloader, Back to Top button)
-│   ├── sections/        # Section components (Hero, About, Products, Faq, Contact, etc.)
-│   ├── App.tsx          # Main layout and ScrollTrigger lifecycle
-│   ├── index.css        # Base styling rules and global containment
-│   └── main.tsx         # Mounting bundle entrypoint
-├── index.html           # Document base, font preloads, and SEO/OG metatags
+│   ├── components/      # Onboarding Activation Modal & UI components
+│   ├── sections/        # Section modules (Navbar, Hero, Audio, Video, DoubleX, TetraX, Calculator, Gallery, FAQ, Footer)
+│   ├── App.tsx          # Main application layout & WhatsApp routing
+│   ├── index.css        # Dark crypto design system tokens & scroll lock rules
+│   └── main.tsx         # Application entrypoint
+├── index.html           # Document base, Google Fonts preloads & SEO metatags
 ├── package.json         # Scripts, modules, and dependencies
-└── Keystone Agribiz Profile.pdf  # Corporate documentation
+└── README.md            # Documentation
 ```
 
 ---
 
 ## 🚀 Local Installation & Setup
 
-To run this project locally, ensure you have **Node.js** installed, then execute:
-
-1. **Install dependency packages:**
+1. **Install dependencies:**
    ```bash
    npm install
    ```
 
-3. **Launch the development server:**
+2. **Launch development server:**
    ```bash
    npm run dev
    ```
-   *The local server will start, typically running at `http://localhost:3000/`.*
+   *The local server will start at `http://localhost:5173/` (or `http://localhost:5175/`).*
 
-4. **Compile production-ready bundles:**
+3. **Build production distribution:**
    ```bash
    npm run build
    ```
-   *Vite will bundle and compile optimized files into the `dist/` directory.*
 
 ---
 
 ## 💻 Developer Credits
-Developed and designed with premium web standards by **Bobmatrix**.
+
+Designed & developed with high-performance web standards by **Bobmatrix**.
