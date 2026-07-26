@@ -10,16 +10,16 @@ export default function EarningsCalculator({ onOpenActivate }: CalculatorProps) 
   const [partners, setPartners] = useState(4);
 
   const levelData = [
-    { name: "Double X (294%)", earn: "$210 - $260", btc: "0.0029 BTC", raw: 260 },
-    { name: "Tetra Level 1", earn: "$1,000", btc: "0.010 BTC", raw: 1000 },
-    { name: "Tetra Level 2", earn: "$10,000", btc: "0.10 BTC", raw: 10000 },
-    { name: "Tetra Level 3", earn: "$50,000", btc: "0.51 BTC", raw: 50000 },
-    { name: "Tetra Level 4", earn: "$250,000", btc: "2.59 BTC", raw: 250000 },
-    { name: "Tetra Level 5", earn: "$500,000", btc: "5.18 BTC", raw: 500000 },
-    { name: "Tetra Level 6", earn: "$1,000,000", btc: "10.36 BTC", raw: 1000000 },
-    { name: "Tetra Level 7", earn: "$2,000,000", btc: "20.72 BTC", raw: 2000000 },
-    { name: "Tetra Level 8", earn: "$3,200,000", btc: "33.16 BTC", raw: 3200000 },
-    { name: "Tetra Level 9", earn: "$4,300,000", btc: "44.55 BTC", raw: 4300000 },
+    { name: "Double X (294%)", earn: "$210 - $260", btc: "0.0029 BTC", raw: 260, roi: "294%" },
+    { name: "Tetra Level 1", earn: "$1,000", btc: "0.010 BTC", raw: 1000, roi: "1,000%" },
+    { name: "Tetra Level 2", earn: "$10,000", btc: "0.10 BTC", raw: 10000, roi: "1,000%" },
+    { name: "Tetra Level 3", earn: "$50,000", btc: "0.51 BTC", raw: 50000, roi: "1,000%" },
+    { name: "Tetra Level 4", earn: "$250,000", btc: "2.59 BTC", raw: 250000, roi: "1,000%" },
+    { name: "Tetra Level 5", earn: "$500,000", btc: "5.18 BTC", raw: 500000, roi: "1,000%" },
+    { name: "Tetra Level 6", earn: "$1,000,000", btc: "10.36 BTC", raw: 1000000, roi: "1,000%" },
+    { name: "Tetra Level 7", earn: "$2,000,000", btc: "20.72 BTC", raw: 2000000, roi: "1,000%" },
+    { name: "Tetra Level 8", earn: "$3,200,000", btc: "33.16 BTC", raw: 3200000, roi: "1,000%" },
+    { name: "Tetra Level 9", earn: "$4,300,000", btc: "44.55 BTC", raw: 4300000, roi: "1,000%" },
   ];
 
   const current = levelData[levelIndex];

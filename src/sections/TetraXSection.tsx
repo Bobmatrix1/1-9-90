@@ -20,8 +20,6 @@ export default function TetraXSection({ onOpenActivate }: TetraXProps) {
     { level: 9, name: "Tetra x9", earn: "$4,300,000", btcApprox: "44.56 BTC", requirement: "Final Matrix Mastery", highlight: "★ $4.3M PINNACLE LEVEL ★" },
   ];
 
-  const totalEarned = "$11,311,000+"; // Summing 1k+10k+50k+250k+500k+1M+2M+3.2M+4.3M = $11,311,000
-
   return (
     <section id="tetra-x" className="py-24 bg-[#090D16] relative overflow-hidden border-t border-[#F7931A]/20">
       {/* Background radial ambient lights */}
