@@ -81,7 +81,7 @@ export default function Hero({ onOpenActivate }: HeroProps) {
               </button>
 
               <a
-                href="https://wa.me/2347068886985?text=hi%20please%20I%20want%20to%20know%20more"
+                href="https://wa.me/2349016192897?text=hi%20please%20I%20want%20to%20know%20more"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-7 py-4 bg-gradient-gold hover:shadow-btc-glow text-black font-extrabold text-base rounded-xl flex items-center justify-center gap-2.5 transition-all hover:scale-105 active:scale-95 shadow-xl"

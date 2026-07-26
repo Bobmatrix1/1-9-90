@@ -17,7 +17,7 @@ import BackToTop from "./components/BackToTop";
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const whatsappUrl = "https://wa.me/2347068886985?text=hi%20please%20i'm%20interested%20,would%20like%20to%20know%20more";
+  const whatsappUrl = "https://wa.me/2349016192897?text=hi%20please%20i'm%20interested%20,would%20like%20to%20know%20more";
 
   const handleActivate = () => {
     window.open(whatsappUrl, "_blank");

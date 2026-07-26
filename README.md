@@ -36,7 +36,7 @@
 - **🎬 Video Masterclass Tour:** Full video walkthrough modal with custom video controls.
 - **📊 Interactive Wealth Simulator:** Dynamic ROI calculator simulating potential earnings based on target matrix levels and team duplication velocity.
 - **🖼️ Interactive Image Lightbox Gallery:** Showcase of platform graphics with full zoom modal and scroll lock.
-- **📱 WhatsApp Direct Onboarding Integration:** Instant redirection to WhatsApp (`07068886985`) for seamless direct partner onboarding.
+- **📱 WhatsApp Direct Onboarding Integration:** Instant redirection to WhatsApp (`09016192897`) for seamless direct partner onboarding.
 - **🛡️ 60fps Mobile Side Panel Drawer:** Hardware-accelerated mobile navigation drawer rendered via React Portals with `scrollbar-gutter: stable`.
 
 ---

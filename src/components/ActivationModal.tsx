@@ -30,7 +30,7 @@ export default function ActivationModal({ isOpen, onClose }: ActivationModalProp
   if (!isOpen) return null;
 
   const btcDepositAddress = "bc1q990btc1990multiplicationenginex990";
-  const whatsappUrl = "https://wa.me/2347068886985?text=hi%20please%20i'm%20interested%20,would%20like%20to%20know%20more";
+  const whatsappUrl = "https://wa.me/2349016192897?text=hi%20please%20i'm%20interested%20,would%20like%20to%20know%20more";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(btcDepositAddress);

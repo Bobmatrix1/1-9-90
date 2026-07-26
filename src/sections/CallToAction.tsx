@@ -49,7 +49,7 @@ export default function CallToAction({ onOpenActivate }: CallToActionProps) {
           </button>
 
           <a
-            href="https://wa.me/2347068886985?text=hi%20please%20I%20want%20to%20know%20more"
+            href="https://wa.me/2349016192897?text=hi%20please%20I%20want%20to%20know%20more"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-4.5 bg-gradient-gold hover:shadow-btc-glow text-black font-extrabold text-base rounded-2xl flex items-center justify-center gap-2.5 transition-transform hover:scale-105 active:scale-95 shadow-2xl"
