@@ -1,69 +1,56 @@
-import { useEffect, useState } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useState, useEffect } from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
-import About from "./sections/About";
-import Services from "./sections/Services";
-import Products from "./sections/Products";
+import AudioSection from "./sections/AudioSection";
+import VideoSection from "./sections/VideoSection";
+import DoubleXSection from "./sections/DoubleXSection";
+import TetraXSection from "./sections/TetraXSection";
+import EarningsCalculator from "./sections/EarningsCalculator";
+import ImageGallery from "./sections/ImageGallery";
 import WhyChooseUs from "./sections/WhyChooseUs";
-import Statistics from "./sections/Statistics";
-import Testimonials from "./sections/Testimonials";
 import Faq from "./sections/Faq";
 import CallToAction from "./sections/CallToAction";
-import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import ActivationModal from "./components/ActivationModal";
 import BackToTop from "./components/BackToTop";
-import Loader from "./components/Loader";
 
 export default function App() {
-  const [loading, setLoading] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const whatsappUrl = "https://wa.me/2347068886985?text=hi%20please%20i'm%20interested%20,would%20like%20to%20know%20more";
+
+  const handleActivate = () => {
+    window.open(whatsappUrl, "_blank");
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
-
-    const handleLoad = () => {
-      ScrollTrigger.refresh();
-    };
-
-    window.addEventListener("load", handleLoad);
-    if (document.readyState === "complete") {
-      ScrollTrigger.refresh();
-    }
-
-    const timer = setTimeout(() => {
-      gsap.registerPlugin(ScrollTrigger);
-      ScrollTrigger.refresh();
-    }, 250);
-
-    const intervals = [1000, 2000, 3000].map(delay =>
-      setTimeout(() => ScrollTrigger.refresh(), delay)
-    );
-
-    return () => {
-      window.removeEventListener("load", handleLoad);
-      clearTimeout(timer);
-      intervals.forEach(clearTimeout);
-    };
   }, []);
 
   return (
-    <div className="min-h-screen bg-cream font-body">
-      {loading && <Loader onComplete={() => setLoading(false)} />}
-      <Navbar />
+    <div className="min-h-screen bg-[#090D16] text-slate-100 font-sans selection:bg-[#F7931A] selection:text-black">
+      <Navbar onOpenActivate={handleActivate} />
+      
       <main>
-        <Hero />
-        <About />
-        <Services />
-        <Products />
-        <WhyChooseUs />
-        <Statistics />
-        <Testimonials />
-        <Faq />
-        <CallToAction />
-        <Contact />
+        <Hero onOpenActivate={handleActivate} />
+        <AudioSection />
+        <VideoSection />
+        <DoubleXSection onOpenActivate={handleActivate} />
+        <TetraXSection onOpenActivate={handleActivate} />
+        <EarningsCalculator onOpenActivate={handleActivate} />
+        <ImageGallery />
+        <WhyChooseUs onOpenActivate={handleActivate} />
+        <Faq onOpenActivate={handleActivate} />
+        <CallToAction onOpenActivate={handleActivate} />
       </main>
-      <Footer />
+
+      <Footer onOpenActivate={handleActivate} />
+
+      <ActivationModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
+
       <BackToTop />
     </div>
   );

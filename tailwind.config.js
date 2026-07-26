@@ -18,55 +18,21 @@ module.exports = {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive) / <alpha-value>)",
-          foreground: "hsl(var(--destructive-foreground) / <alpha-value>)",
+        btc: {
+          orange: "#F7931A",
+          gold: "#FFB800",
+          glow: "#FFE599",
+          dark: "#090D16",
+          card: "#111726",
+          elevated: "#182238",
+          border: "rgba(247, 147, 26, 0.25)",
         },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
-        forest: {
-          DEFAULT: "#2A4B3A",
-          80: "rgba(42,75,58,0.8)",
-          60: "rgba(42,75,58,0.6)",
-          10: "rgba(42,75,58,0.1)",
-        },
-        gold: {
-          DEFAULT: "#C4975C",
-          light: "#D4A96A",
-        },
-        cream: "#F8F5F0",
-        parchment: "#F0EBE1",
-        "deep-earth": "#1C2E24",
-        sage: "#7A9478",
-        mist: "#E8E3DB",
+        profit: "#10B981",
       },
       fontFamily: {
-        display: ['"Cormorant Garamond"', 'serif'],
-        body: ['"Inter"', 'sans-serif'],
+        display: ['"Space Grotesk"', 'sans-serif'],
+        body: ['"Plus Jakarta Sans"', 'sans-serif'],
+        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
       },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",
@@ -76,9 +42,9 @@ module.exports = {
         xs: "calc(var(--radius) - 6px)",
       },
       boxShadow: {
-        xs: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
-        card: "0 8px 32px rgba(28,46,36,0.08)",
-        elevated: "0 16px 48px rgba(28,46,36,0.12)",
+        'btc-glow': '0 0 25px rgba(247, 147, 26, 0.35)',
+        'btc-glow-lg': '0 0 50px rgba(247, 147, 26, 0.5)',
+        'gold-card': '0 10px 40px -10px rgba(247, 147, 26, 0.15)',
       },
       keyframes: {
         "accordion-down": {
@@ -89,25 +55,24 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "caret-blink": {
-          "0%,70%,100%": { opacity: "1" },
-          "20%,50%": { opacity: "0" },
+        "pulse-glow": {
+          "0%, 100%": { opacity: "0.6", transform: "scale(1)" },
+          "50%": { opacity: "1", transform: "scale(1.05)" },
         },
         "float": {
           "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-6px)" },
+          "50%": { transform: "translateY(-8px)" },
         },
-        "bounce-slow": {
-          "0%, 100%": { transform: "translateY(0)" },
-          "50%": { transform: "translateY(8px)" },
-        },
+        "shimmer": {
+          "100%": { transform: "translateX(100%)" },
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "caret-blink": "caret-blink 1.25s ease-out infinite",
+        "pulse-glow": "pulse-glow 3s infinite ease-in-out",
         "float": "float 4s ease-in-out infinite",
-        "bounce-slow": "bounce-slow 2s ease-in-out infinite",
+        "shimmer": "shimmer 2.5s infinite",
       },
     },
   },
