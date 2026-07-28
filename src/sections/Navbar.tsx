@@ -89,8 +89,8 @@ export default function Navbar({ onOpenActivate }: NavbarProps) {
                 }}
               />
               <div className="flex items-center gap-2 shrink-0">
-                <span className="font-display font-extrabold text-xl sm:text-2xl tracking-wider text-white whitespace-nowrap leading-none">
-                  1-9-90 Marketing
+                <span className="font-display font-extrabold text-lg sm:text-xl lg:text-2xl tracking-wider text-white whitespace-nowrap leading-none">
+                  Bitcoin Earners Community
                 </span>
               </div>
             </a>
@@ -170,8 +170,8 @@ export default function Navbar({ onOpenActivate }: NavbarProps) {
                       className="w-9 h-9 rounded-full border border-[#F7931A] object-cover"
                       onError={(e) => { (e.target as HTMLElement).style.display = 'none'; }}
                     />
-                    <span className="font-display font-extrabold text-lg tracking-wider text-white whitespace-nowrap">
-                      1-9-90 Marketing
+                    <span className="font-display font-extrabold text-base sm:text-lg tracking-wider text-white whitespace-nowrap">
+                      Bitcoin Earners Community
                     </span>
                   </div>
 

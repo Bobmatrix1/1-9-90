@@ -26,7 +26,7 @@ export default function Footer({ onOpenActivate }: FooterProps) {
                 onError={(e) => { (e.target as HTMLElement).style.display = 'none'; }}
               />
               <div>
-                <span className="font-display text-2xl font-extrabold text-white whitespace-nowrap">1-9-90 Marketing</span>
+                <span className="font-display text-xl sm:text-2xl font-extrabold text-white whitespace-nowrap">Bitcoin Earners Community</span>
               </div>
             </div>
 
